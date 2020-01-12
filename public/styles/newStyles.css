@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-LightCondensed.ttf');
+    font-weight: lighter;
+    font-style: sans-serif;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Condensed.ttf');
+    font-weight: normal;
+    font-style: sans-serif;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-BoldCondensed.ttf');
+    font-weight: bold;
+    font-style: sans-serif;
+    font-display: swap;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    height: 4000px;
+}
+.healthThanks {
+    width: 100%;
+    height: 572px;
+    background: url('../images/newBg.png'), linear-gradient(246.99deg, #1F68CB 3.49%, #71A6ED 48.68%, #2B77DE 95.67%);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.headThanks {
+    position: absolute;
+    left: 70px;
+    right: -5.49%;
+    top: 51px;
+    bottom: 77.82%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.head2Thanks {
+    position: absolute;
+    height: 32px;
+    left: 70px;
+    top: 149px;  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.oneThanks {
+    position: absolute;
+    width: 292px;
+    height: 229px;
+    left: 70px;
+    top: 349px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.twoThanks {
+    position: absolute;
+    width: 292px;
+    height: 229px;
+    left: 508px;
+    top: 349px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.threeThanks {
+    position: absolute;
+    width: 340px;
+    height: 119px;
+    left: 925px;
+    top: 349px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.oneIcon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 70px;
+    top: 233px;
+}
+.twoIcon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 572px;
+    top: 233px;
+}
+.threeIcon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 925px;
+    top: 233px;
+}
+
+.healthPrice {
+    position: absolute;
+    width: 100%;
+    height: 658px;
+    top: 800px;
+}
+.priceBg {
+    position: absolute;
+    width: 601px;
+    height: 658px;
+    left: 50%;
+    background: url('../images/priceBg.png');
+}
+.headPrice {
+    position: absolute;
+    width: 493px;
+    height: 76px;
+    left: 68px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #2F80ED;
+}
+.healthPrice > ul {
+    position: absolute;
+    width: 720px;
+    height: 128px;
+    left: 25px;
+    top: 95px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+.healthPrice > ul > li {
+    list-style-type: none;
+}
+.healthPrice > ul > li::before {
+    color: #2F80ED;
+    content: "• ";
+    padding-right: 15px;
+}
+.priceIcons {
+    position: absolute;
+    width: 685px;
+    height: 579px;
+    left: 50%;
+    top: 32px;
+}
+.border {
+    border: 2px dashed #1F68CB;
+    box-sizing: border-box;
+    border-radius: 50%;
+    transition-duration: 1000ms;
+}
+.shema {
+    transition-duration: 1000ms;
+}
+.border1 {
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    top: 30px;
+}
+.border2 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 200px;
+    top: 200px;
+}
+.border3 {
+    position: absolute;
+    width: 146px;
+    height: 146px;
+    left: 460px;
+    top: 100px;
+}
+.border4 {
+    position: absolute;
+    width: 174px;
+    height: 174px;
+    top: 345px;
+}
+.border5 {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    left: 465px;
+    top: 500px;
+}
+.shema1 {
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 20px;
+    top: 53px;
+}
+.shema2 {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 242px;
+    top: 243px;
+}
+.shema3 {
+    position: absolute;
+    left: 488px;
+    top: 132px;
+}
+.shema4 {
+    position: absolute;
+    left: 31px;
+    top: 375px;
+}
+.shema5 {
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 489px;
+    top: 526px;
+}
+.textScroll {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #BBBBBB;
+}
+.s1 {
+    position: absolute;
+    left: -40px;
+    top: 150px;
+    width: 200px;
+}
+.s2 {
+    position: absolute;
+    left: 450px;
+    top: 50px;
+    width: 200px;
+}
+.s3 {
+    position: absolute;
+    left: 0px;
+    top: 530px;
+    width: 200px;
+}
+.s4 {
+    position: absolute;
+    left: 430px;
+    top: 600px;
+    width: 200px;
+}
