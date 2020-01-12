@@ -54,6 +54,27 @@ window.addEventListener('scroll', () => {
         shema5.style.top = '526px';
         shema5.style.left = '489px';
     }
+    if(screen.width < 500) {
+        border1.style.top = '330px';
+        border1.style.left = '-180px';
+        shema1.style.top = '353px';
+        shema1.style.left = '-160px';
+
+        border3.style.top = '300px';
+        border3.style.left = '0px';
+        shema3.style.top = '332px';
+        shema3.style.left = '28px';
+
+        border4.style.top = '645px';
+        border4.style.left = '-180px';
+        shema4.style.top = '675px';
+        shema4.style.left = '-151px';
+
+        border5.style.top = '700px';
+        border5.style.left = '65px';
+        shema5.style.top = '726px';
+        shema5.style.left = '89px';
+    }
     /*border1.setAttribute('style', 'left:'+(pageYOffset / 10)+'px; top:'+(pageYOffset / 8 + 30)+'px;');
     shcema1.setAttribute('style', 'left:'+(pageYOffset / 10 + 20)+'px; top:'+(pageYOffset / 8 + 53)+'px;');
     */
